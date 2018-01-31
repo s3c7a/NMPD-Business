@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600,900&subset=latin-ext');
+/*  WHEN WHIDTH IS BELOW 320PX ADJUST IMAGES */
+@media all and (max-width:320px){
+  p img {
+		margin: 0;
+		min-width: 100%;
+		height: auto;
+		border-radius: 50%;
+		overflow: inherit; }
+}
+
+
+/*  CONTENT BLOCKS  */
+body {
+	font-family: 'Source Code Pro', monospace;
+	color: rgb(200,200,200);
+	background: linear-gradient(rgb(138,18,20), rgb(87,11,12));
+	width: 58%;
+	max-width: 3200px;
+
+	margin: 0 auto;
+	padding: 3rem;
+	border: 3px solid #fff;
+
+	min-height: 100%;
+}
+
+header{
+	width: 100%;
+	max-width: 3200px;
+	top:0;
+	margin:0 auto;
+}
+
+figure{
+	margin:0;
+	align: center;
+}
+
+/*  TITLES AND TEXT  */
+
+h1 {
+	font-size: 3.2rem;
+	font-weight: 900;
+	text-align: center;
+}
+
+p {
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 2.25rem;
+}
+
+a {
+	font-weight: 600;
+	color: rgb(220,220,220);
+	text-decoration-skip: ink;
+}
+
+figcaption {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+footer h2{
+	font-size: .8rem;
+	font-weight: 900;
+}
+footer ul{
+	font-size: 0.8rem;
+	font-weight: 300;
+}
+
+/*  MEDIA  */
+img {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	border: 3px solid #fff;
+}
+
+p img {
+	margin: 0;
+	width: 35%;
+	height: auto;
+	border-radius: 50%;
+	overflow: inherit;
+	border: 3px solid #fff;
+
+	clear: right;
+	float: right;
+	margin-top: 1.5rem;
+	margin-left: 1.5rem;
+	margin-bottom: 1.5rem;
+	shape-outside: circle(60%);
+
+}
+
+figure img{
+	width:100%;
+}
+
+iframe {
+	height: 28rem;
+	width: 100%;
+}
